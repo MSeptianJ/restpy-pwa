@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free movie catalogue for you">
+    <meta name="theme-color" content="db0000">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <link rel="icon" href="favicon.png">
+    <link rel="manifest" href="manifest.json">
+    <script src="https://kit.fontawesome.com/8f037559c2.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Roboto&display=swap" rel="stylesheet">
+    <title>Restaurant Apps Starter Project</title>
+</head>
+<body>
+    <a href="#main_Content" class="skip-link">Go to Content</a>
+
+    <header>
+        <app-bar></app-bar>
+    </header>
+
+    <hero-container></hero-container>
+
+    <main>
+        <section class="content">
+            <h1 tabindex="0" class="content__label">Explore Restaurant</h1>
+            <div class="content__loading" id="contentLoading">
+                <img src="../loading.gif" alt="loading">
+            </div>
+            <div id="mainContent">
+            </div>
+        </section>
+    </main>
+
+    <discount-container></discount-container>
+
+    <contacts-container></contacts-container>
+
+    <footer>
+        <copyright-bar></copyright-bar>
+    </footer>
+</body>
+</html>
